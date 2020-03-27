@@ -1,0 +1,13 @@
+ENTIDADES
+    - ONG (Organização)
+    - Caso (incident)
+
+FUNCIONALIDADES
+    - Login de ONG
+    - Logout
+    - Registo de ONG
+    - Criar novos casos
+    - Remover casos
+    - Listar casos específicos de uma ONG
+    - Listar todos os casos
+    - Entrar em contato com a ONG
