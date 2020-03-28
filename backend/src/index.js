@@ -1,5 +1,8 @@
 const express = require('express');
 const cors = require('cors');
+
+const { errors } = require( 'celebrate' );
+
 const routes = require('./routes');
 
 const app = express();
@@ -8,6 +11,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(routes);
+app.use(errors());
 
 // Para instalar dependências para serem usadas apenas em desenvolvimento usamos o -D à frente do pedido de instalação. Ex: npm install nodemon -D
 

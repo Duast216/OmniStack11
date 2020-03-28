@@ -98,3 +98,8 @@
 /**
  * Para correr a migração e criar a tabela, usamos: npx knex migrate:latest
  */
+
+
+ /**
+  * Testes unitários testam funções que fazem um única coisa. E encontram-se dentro da nossa aplicação.
+  */
