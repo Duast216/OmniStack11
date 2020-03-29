@@ -12,11 +12,11 @@ module.exports = {
     async create(request, response) {
         const { name, email, whatsapp, city, uf } = request.body;
     
-        console.log(name, email, whatsapp, city, uf);
+        // console.log(name, email, whatsapp, city, uf);
     
         const id = generateUniqueId();
     
-        console.log(id);
+        // console.log(id);
     
         await connection('ongs').insert({
             id,

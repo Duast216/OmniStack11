@@ -16,6 +16,18 @@ module.exports = {
     useNullAsDefault: true,
   },
 
+    // Teste
+    test: {
+      client: 'sqlite3',
+      connection: {
+        filename: './src/database/test.sqlite'
+      },
+      migrations: {
+        directory: './src/database/migrations'
+      },
+      useNullAsDefault: true,
+    },
+
   // Ambiente de produção para a equipa de desenvolvimento. Simula o ambiente de produção para realização de testes
   staging: {
     client: 'postgresql',

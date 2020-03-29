@@ -13,6 +13,8 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
+module.exports = app;
+
 // Para instalar dependências para serem usadas apenas em desenvolvimento usamos o -D à frente do pedido de instalação. Ex: npm install nodemon -D
 
 // npm - instala pacotes de serviços, instala dependências. Ex: npm install nodemon Ou corre a própria aplicação. Ex. npm start
@@ -54,4 +56,3 @@ app.use(errors());
  */
 
 
-app.listen(3333);
